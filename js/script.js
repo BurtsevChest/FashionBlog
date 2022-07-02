@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $('.header_burger').click(function(){
+    $('.header_burger,.header_menu').toggleClass('active');
+    $('body').toggleClass('lock');
+  });
+  $('.footer_link_media').mouseenter(function(){
+    $('.twitter').attr('src','img/twitterwhite.png');
+  });
+  $('.footer_link_media').mouseleave(function(){
+    $('.twitter').attr('src','img/twitter.png');
+  });
+});

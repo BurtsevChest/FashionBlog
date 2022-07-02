@@ -1,0 +1,88 @@
+@media only screen and (max-width:1487px){
+
+}
+
+@media only screen and (max-width: 1200px){
+.contents{
+  display: block;
+}
+.left_content{
+  width: 100%;
+  margin: 0 auto;
+}
+.right_content{
+  width: 100%;
+  margin: 0 auto;
+}
+.banner_text_up,.banner_title,.banner_text_down {
+margin-left: 50px;
+}
+.header_logo{
+  margin-left: 30px;
+}
+.about_author, .featured_posts_link, .categories_link, .social_media_link, .tags_link{
+  max-width: 270px;
+  margin: 20px auto;
+}
+.about_author_link{
+  max-width: 270px;
+  margin: 20px auto;
+  border: 1px solid #E5E5E5;
+}
+.author,.featured_post,.categories{
+  max-width: 270px;
+  margin: 20px auto;
+}
+.social_medias,.tags{
+padding-left: 40px;
+padding-right: 40px;
+}
+.follow_items{
+  justify-content: center;
+}
+.follow_inst_item{
+  margin-right: 10px;
+}
+.header_menu{
+  margin-right: 50px;
+}
+}
+@media only screen and (max-width: 992px){
+.left_content{
+  width: 80%;
+  justify-content: center;
+}
+.left_content_item_big_label,.left_content_item_big_title,.left_content_item_big_smalldesc,.left_content_item_big_desc{
+  margin-left: 40px;
+
+}
+}
+
+@media only screen and (max-width: 768px){
+.left_content_item_big{
+  width: 80%;
+  margin: 0 auto;
+}
+.left_content_item_big_img{
+  width: 100%;
+  
+}
+.header_menu{
+    position: fixed;
+}
+
+.banner{
+  padding-top: 200px;
+}
+}
+
+@media only screen and (max-width: 480px){
+
+}
+@media only screen and (max-width: 445px){
+
+}
+
+@media only screen and (max-width: 320px){
+
+}
